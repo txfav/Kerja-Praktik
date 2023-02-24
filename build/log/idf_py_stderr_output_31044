@@ -1,0 +1,10 @@
+CMake Error at C:/Espressif/frameworks/esp-idf-v5.0/tools/cmake/build.cmake:245 (message):
+  Failed to resolve component 'component'.
+Call Stack (most recent call first):
+  C:/Espressif/frameworks/esp-idf-v5.0/tools/cmake/build.cmake:287 (__build_resolve_and_add_req)
+  C:/Espressif/frameworks/esp-idf-v5.0/tools/cmake/build.cmake:574 (__build_expand_requirements)
+  C:/Espressif/frameworks/esp-idf-v5.0/tools/cmake/project.cmake:440 (idf_build_process)
+  CMakeLists.txt:10 (project)
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed

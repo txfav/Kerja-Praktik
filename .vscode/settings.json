@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "ble_svc_gatt.h": "c",
+        "ble_hs.h": "c",
+        "ble_svc_gap.h": "c",
+        "nimble_npl.h": "c",
+        "blecent.h": "c",
+        "stdio.h": "c",
+        "freertos.h": "c",
+        "nvs_flash.h": "c",
+        "util.h": "c",
+        "console.h": "c",
+        "nimble_port_freertos.h": "c",
+        "esp_nimble_hci.h": "c",
+        "nimble_port.h": "c",
+        "esp_central.h": "c",
+        "gpio.h": "c",
+        "ble_gatt.h": "c"
+    },
+    "idf.adapterTargetName": "esp32c3"
+}

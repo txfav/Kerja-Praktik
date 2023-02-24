@@ -1,0 +1,94 @@
+[0/1] Re-running CMake...
+-- ccache will be used for faster recompilation
+-- Project is not inside a git repository, or git repository has no commits; will not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32c3
+-- Project sdkconfig file C:/Users/faisa/Documents/Kuliah/SEM 6/BLE_CLIENT2/sdkconfig
+-- App "BLE_CLIENT2" version: 1
+-- Adding linker script C:/Users/faisa/Documents/Kuliah/SEM 6/BLE_CLIENT2/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.0/components/esp_system/ld/esp32c3/sections.ld.in
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.0/components/esp_rom/esp32c3/ld/esp32c3.rom.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.0/components/esp_rom/esp32c3/ld/esp32c3.rom.api.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.0/components/esp_rom/esp32c3/ld/esp32c3.rom.libgcc.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.0/components/esp_rom/esp32c3/ld/esp32c3.rom.newlib.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.0/components/esp_rom/esp32c3/ld/esp32c3.rom.version.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.0/components/esp_rom/esp32c3/ld/esp32c3.rom.eco3.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.0/components/soc/esp32c3/ld/esp32c3.peripherals.ld
+-- Components: ads111x ads130e08 aht app_trace app_update bh1750 bh1900nux bme680 bmp180 bmp280 bootloader bootloader_support bt button ccs811 cmock color console cxx dht dps310 driver ds1302 ds1307 ds18x20 ds3231 ds3502 efuse encoder esp-tls esp_adc esp_app_format esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_idf_lib_helpers esp_lcd esp_local_ctrl esp_netif esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py example fatfs framebuffer freertos hal hd44780 hdc1000 heap hmc5883l ht16k33 hts221 http_parser hx711 i2cdev icm42670 idf_test ieee802154 ina219 ina260 ina3221 json lc709203f led_strip led_strip_spi lib8tion lm75 log ls7366r lwip main max31725 max31855 max31865 max7219 mbedtls mcp23008 mcp23x17 mcp342x mcp4725 mcp960x mcp9808 mhz19b mqtt ms5611 newlib nimble_central_utils noise nvs_flash onewire openthread partition_table pca9557 pca9685 pcf8563 pcf8574 pcf8575 pcf8591 protobuf-c protocomm pthread qmc5883l rda5807m riscv scd30 scd4x sdmmc sgp40 sht3x sht4x si7021 soc spi_flash spiffs sts21 tca9548 tca95x5 tcp_transport tda74xx tsl2561 tsl2591 tsl4531 tsys01 ulp ultrasonic unity usb veml7700 vfs wear_levelling wiegand wifi_provisioning wpa_supplicant
+-- Component paths: C:/Espressif/frameworks/esp-idf-v5.0/components/ads111x C:/Espressif/frameworks/esp-idf-v5.0/components/ads130e08 C:/Espressif/frameworks/esp-idf-v5.0/components/aht C:/Espressif/frameworks/esp-idf-v5.0/components/app_trace C:/Espressif/frameworks/esp-idf-v5.0/components/app_update C:/Espressif/frameworks/esp-idf-v5.0/components/bh1750 C:/Espressif/frameworks/esp-idf-v5.0/components/bh1900nux C:/Espressif/frameworks/esp-idf-v5.0/components/bme680 C:/Espressif/frameworks/esp-idf-v5.0/components/bmp180 C:/Espressif/frameworks/esp-idf-v5.0/components/bmp280 C:/Espressif/frameworks/esp-idf-v5.0/components/bootloader C:/Espressif/frameworks/esp-idf-v5.0/components/bootloader_support C:/Espressif/frameworks/esp-idf-v5.0/components/bt C:/Espressif/frameworks/esp-idf-v5.0/components/button C:/Espressif/frameworks/esp-idf-v5.0/components/ccs811 C:/Espressif/frameworks/esp-idf-v5.0/components/cmock C:/Espressif/frameworks/esp-idf-v5.0/components/color C:/Espressif/frameworks/esp-idf-v5.0/components/console C:/Espressif/frameworks/esp-idf-v5.0/components/cxx C:/Espressif/frameworks/esp-idf-v5.0/components/dht C:/Espressif/frameworks/esp-idf-v5.0/components/dps310 C:/Espressif/frameworks/esp-idf-v5.0/components/driver C:/Espressif/frameworks/esp-idf-v5.0/components/ds1302 C:/Espressif/frameworks/esp-idf-v5.0/components/ds1307 C:/Espressif/frameworks/esp-idf-v5.0/components/ds18x20 C:/Espressif/frameworks/esp-idf-v5.0/components/ds3231 C:/Espressif/frameworks/esp-idf-v5.0/components/ds3502 C:/Espressif/frameworks/esp-idf-v5.0/components/efuse C:/Espressif/frameworks/esp-idf-v5.0/components/encoder C:/Espressif/frameworks/esp-idf-v5.0/components/esp-tls C:/Espressif/frameworks/esp-idf-v5.0/components/esp_adc C:/Espressif/frameworks/esp-idf-v5.0/components/esp_app_format C:/Espressif/frameworks/esp-idf-v5.0/components/esp_common C:/Espressif/frameworks/esp-idf-v5.0/components/esp_eth C:/Espressif/frameworks/esp-idf-v5.0/components/esp_event C:/Espressif/frameworks/esp-idf-v5.0/components/esp_gdbstub C:/Espressif/frameworks/esp-idf-v5.0/components/esp_hid C:/Espressif/frameworks/esp-idf-v5.0/components/esp_http_client C:/Espressif/frameworks/esp-idf-v5.0/components/esp_http_server C:/Espressif/frameworks/esp-idf-v5.0/components/esp_https_ota C:/Espressif/frameworks/esp-idf-v5.0/components/esp_https_server C:/Espressif/frameworks/esp-idf-v5.0/components/esp_hw_support C:/Espressif/frameworks/esp-idf-v5.0/components/esp_idf_lib_helpers C:/Espressif/frameworks/esp-idf-v5.0/components/esp_lcd C:/Espressif/frameworks/esp-idf-v5.0/components/esp_local_ctrl C:/Espressif/frameworks/esp-idf-v5.0/components/esp_netif C:/Espressif/frameworks/esp-idf-v5.0/components/esp_partition C:/Espressif/frameworks/esp-idf-v5.0/components/esp_phy C:/Espressif/frameworks/esp-idf-v5.0/components/esp_pm C:/Espressif/frameworks/esp-idf-v5.0/components/esp_psram C:/Espressif/frameworks/esp-idf-v5.0/components/esp_ringbuf C:/Espressif/frameworks/esp-idf-v5.0/components/esp_rom C:/Espressif/frameworks/esp-idf-v5.0/components/esp_system C:/Espressif/frameworks/esp-idf-v5.0/components/esp_timer C:/Espressif/frameworks/esp-idf-v5.0/components/esp_wifi C:/Espressif/frameworks/esp-idf-v5.0/components/espcoredump C:/Espressif/frameworks/esp-idf-v5.0/components/esptool_py C:/Espressif/frameworks/esp-idf-v5.0/components/example C:/Espressif/frameworks/esp-idf-v5.0/components/fatfs C:/Espressif/frameworks/esp-idf-v5.0/components/framebuffer C:/Espressif/frameworks/esp-idf-v5.0/components/freertos C:/Espressif/frameworks/esp-idf-v5.0/components/hal C:/Espressif/frameworks/esp-idf-v5.0/components/hd44780 C:/Espressif/frameworks/esp-idf-v5.0/components/hdc1000 C:/Espressif/frameworks/esp-idf-v5.0/components/heap C:/Espressif/frameworks/esp-idf-v5.0/components/hmc5883l C:/Espressif/frameworks/esp-idf-v5.0/components/ht16k33 C:/Espressif/frameworks/esp-idf-v5.0/components/hts221 C:/Espressif/frameworks/esp-idf-v5.0/components/http_parser C:/Espressif/frameworks/esp-idf-v5.0/components/hx711 C:/Espressif/frameworks/esp-idf-v5.0/components/i2cdev C:/Espressif/frameworks/esp-idf-v5.0/components/icm42670 C:/Espressif/frameworks/esp-idf-v5.0/components/idf_test C:/Espressif/frameworks/esp-idf-v5.0/components/ieee802154 C:/Espressif/frameworks/esp-idf-v5.0/components/ina219 C:/Espressif/frameworks/esp-idf-v5.0/components/ina260 C:/Espressif/frameworks/esp-idf-v5.0/components/ina3221 C:/Espressif/frameworks/esp-idf-v5.0/components/json C:/Espressif/frameworks/esp-idf-v5.0/components/lc709203f C:/Espressif/frameworks/esp-idf-v5.0/components/led_strip C:/Espressif/frameworks/esp-idf-v5.0/components/led_strip_spi C:/Espressif/frameworks/esp-idf-v5.0/components/lib8tion C:/Espressif/frameworks/esp-idf-v5.0/components/lm75 C:/Espressif/frameworks/esp-idf-v5.0/components/log C:/Espressif/frameworks/esp-idf-v5.0/components/ls7366r C:/Espressif/frameworks/esp-idf-v5.0/components/lwip C:/Users/faisa/Documents/Kuliah/SEM 6/BLE_CLIENT2/main C:/Espressif/frameworks/esp-idf-v5.0/components/max31725 C:/Espressif/frameworks/esp-idf-v5.0/components/max31855 C:/Espressif/frameworks/esp-idf-v5.0/components/max31865 C:/Espressif/frameworks/esp-idf-v5.0/components/max7219 C:/Espressif/frameworks/esp-idf-v5.0/components/mbedtls C:/Espressif/frameworks/esp-idf-v5.0/components/mcp23008 C:/Espressif/frameworks/esp-idf-v5.0/components/mcp23x17 C:/Espressif/frameworks/esp-idf-v5.0/components/mcp342x C:/Espressif/frameworks/esp-idf-v5.0/components/mcp4725 C:/Espressif/frameworks/esp-idf-v5.0/components/mcp960x C:/Espressif/frameworks/esp-idf-v5.0/components/mcp9808 C:/Espressif/frameworks/esp-idf-v5.0/components/mhz19b C:/Espressif/frameworks/esp-idf-v5.0/components/mqtt C:/Espressif/frameworks/esp-idf-v5.0/components/ms5611 C:/Espressif/frameworks/esp-idf-v5.0/components/newlib C:/Espressif/frameworks/esp-idf-v5.0/examples/bluetooth/nimble/common/nimble_central_utils C:/Espressif/frameworks/esp-idf-v5.0/components/noise C:/Espressif/frameworks/esp-idf-v5.0/components/nvs_flash C:/Espressif/frameworks/esp-idf-v5.0/components/onewire C:/Espressif/frameworks/esp-idf-v5.0/components/openthread C:/Espressif/frameworks/esp-idf-v5.0/components/partition_table C:/Espressif/frameworks/esp-idf-v5.0/components/pca9557 C:/Espressif/frameworks/esp-idf-v5.0/components/pca9685 C:/Espressif/frameworks/esp-idf-v5.0/components/pcf8563 C:/Espressif/frameworks/esp-idf-v5.0/components/pcf8574 C:/Espressif/frameworks/esp-idf-v5.0/components/pcf8575 C:/Espressif/frameworks/esp-idf-v5.0/components/pcf8591 C:/Espressif/frameworks/esp-idf-v5.0/components/protobuf-c C:/Espressif/frameworks/esp-idf-v5.0/components/protocomm C:/Espressif/frameworks/esp-idf-v5.0/components/pthread C:/Espressif/frameworks/esp-idf-v5.0/components/qmc5883l C:/Espressif/frameworks/esp-idf-v5.0/components/rda5807m C:/Espressif/frameworks/esp-idf-v5.0/components/riscv C:/Espressif/frameworks/esp-idf-v5.0/components/scd30 C:/Espressif/frameworks/esp-idf-v5.0/components/scd4x C:/Espressif/frameworks/esp-idf-v5.0/components/sdmmc C:/Espressif/frameworks/esp-idf-v5.0/components/sgp40 C:/Espressif/frameworks/esp-idf-v5.0/components/sht3x C:/Espressif/frameworks/esp-idf-v5.0/components/sht4x C:/Espressif/frameworks/esp-idf-v5.0/components/si7021 C:/Espressif/frameworks/esp-idf-v5.0/components/soc C:/Espressif/frameworks/esp-idf-v5.0/components/spi_flash C:/Espressif/frameworks/esp-idf-v5.0/components/spiffs C:/Espressif/frameworks/esp-idf-v5.0/components/sts21 C:/Espressif/frameworks/esp-idf-v5.0/components/tca9548 C:/Espressif/frameworks/esp-idf-v5.0/components/tca95x5 C:/Espressif/frameworks/esp-idf-v5.0/components/tcp_transport C:/Espressif/frameworks/esp-idf-v5.0/components/tda74xx C:/Espressif/frameworks/esp-idf-v5.0/components/tsl2561 C:/Espressif/frameworks/esp-idf-v5.0/components/tsl2591 C:/Espressif/frameworks/esp-idf-v5.0/components/tsl4531 C:/Espressif/frameworks/esp-idf-v5.0/components/tsys01 C:/Espressif/frameworks/esp-idf-v5.0/components/ulp C:/Espressif/frameworks/esp-idf-v5.0/components/ultrasonic C:/Espressif/frameworks/esp-idf-v5.0/components/unity C:/Espressif/frameworks/esp-idf-v5.0/components/usb C:/Espressif/frameworks/esp-idf-v5.0/components/veml7700 C:/Espressif/frameworks/esp-idf-v5.0/components/vfs C:/Espressif/frameworks/esp-idf-v5.0/components/wear_levelling C:/Espressif/frameworks/esp-idf-v5.0/components/wiegand C:/Espressif/frameworks/esp-idf-v5.0/components/wifi_provisioning C:/Espressif/frameworks/esp-idf-v5.0/components/wpa_supplicant
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/faisa/Documents/Kuliah/SEM 6/BLE_CLIENT2/build
+[1/11] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/BLE_CLIENT2.c.obj
+In file included from C:/Users/faisa/Documents/Kuliah/SEM 6/BLE_CLIENT2/main/BLE_CLIENT2.c:21:
+C:/Espressif/frameworks/esp-idf-v5.0/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+C:/Users/faisa/Documents/Kuliah/SEM 6/BLE_CLIENT2/main/BLE_CLIENT2.c: In function 'send':
+C:/Users/faisa/Documents/Kuliah/SEM 6/BLE_CLIENT2/main/BLE_CLIENT2.c:189:9: warning: unused variable 'i' [-Wunused-variable]
+  189 |     int i;
+      |         ^
+[2/11] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/peer.c.obj
+[3/11] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D "C:\Users\faisa\Documents\Kuliah\SEM 6\BLE_CLIENT2\build\bootloader\esp-idf\esptool_py" && C:\Espressif\python_env\idf5.0_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.0/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 "C:/Users/faisa/Documents/Kuliah/SEM 6/BLE_CLIENT2/build/bootloader/bootloader.bin""
+Bootloader binary size 0x4ed0 bytes. 0x3130 bytes (38%) free.
+[4/9] Linking C static library esp-idf\main\libmain.a
+[5/9] Generating ld/sections.ld
+[6/9] Linking CXX executable BLE_CLIENT2.elf
+[7/9] Generating binary image from built executable
+esptool.py v4.4
+Creating esp32c3 image...
+Merged 2 ELF sections
+Successfully created esp32c3 image.
+Generated C:/Users/faisa/Documents/Kuliah/SEM 6/BLE_CLIENT2/build/BLE_CLIENT2.bin
+[8/9] cmd.exe /C "cd /D "C:\Users\faisa\Documents\Kuliah\SEM 6\BLE_CLIENT2\build\esp-idf\esptool_py" && C:\Espressif\python_env\idf5.0_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.0/components/partition_table/check_sizes.py --offset 0x8000 partition --type app "C:/Users/faisa/Documents/Kuliah/SEM 6/BLE_CLIENT2/build/partition_table/partition-table.bin" "C:/Users/faisa/Documents/Kuliah/SEM 6/BLE_CLIENT2/build/BLE_CLIENT2.bin""
+BLE_CLIENT2.bin binary size 0x7b5f0 bytes. Smallest app partition is 0x100000 bytes. 0x84a10 bytes (52%) free.
+[8/9] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.0\components\esptool_py && C:\Espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=C:/Espressif/frameworks/esp-idf-v5.0 -D SERIAL_TOOL=C:/Espressif/python_env/idf5.0_py3.11_env/Scripts/python.exe;;C:/Espressif/frameworks/esp-idf-v5.0/components/esptool_py/esptool/esptool.py;--chip;esp32c3 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args -D "WORKING_DIRECTORY=C:/Users/faisa/Documents/Kuliah/SEM 6/BLE_CLIENT2/build" -P C:/Espressif/frameworks/esp-idf-v5.0/components/esptool_py/run_serial_tool.cmake"
+esptool esp32c3 -p COM7 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 2MB 0x0 bootloader/bootloader.bin 0x10000 BLE_CLIENT2.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.4
+Serial port COM7
+Connecting....
+Chip is ESP32-C3 (revision v0.3)
+Features: WiFi, BLE
+Crystal is 40MHz
+MAC: 84:f7:03:41:81:00
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00000000 to 0x00004fff...
+Flash will be erased from 0x00010000 to 0x0008bfff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 20176 bytes to 12379...
+Writing at 0x00000000... (100 %)
+Wrote 20176 bytes (12379 compressed) at 0x00000000 in 0.7 seconds (effective 225.1 kbit/s)...
+Hash of data verified.
+Compressed 505328 bytes to 288141...
+Writing at 0x00010000... (5 %)
+Writing at 0x0001ab60... (11 %)
+Writing at 0x00020025... (16 %)
+Writing at 0x000270cd... (22 %)
+Writing at 0x0002e648... (27 %)
+Writing at 0x00034eac... (33 %)
+Writing at 0x0003ca82... (38 %)
+Writing at 0x000436e6... (44 %)
+Writing at 0x0004a636... (50 %)
+Writing at 0x000519ca... (55 %)
+Writing at 0x00058216... (61 %)
+Writing at 0x0005e938... (66 %)
+Writing at 0x00064f08... (72 %)
+Writing at 0x0006b37b... (77 %)
+Writing at 0x0007236d... (83 %)
+Writing at 0x000794b0... (88 %)
+Writing at 0x00080d23... (94 %)
+Writing at 0x000871ba... (100 %)
+Wrote 505328 bytes (288141 compressed) at 0x00010000 in 9.1 seconds (effective 444.0 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 241.1 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
